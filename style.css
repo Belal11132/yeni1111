@@ -7,12 +7,12 @@ body {
 }
 
 .hakkimda {
-    background-color: #f2f2f2;
+    background-color: #fffcfc;
 }
 
 .hakkimda .container .yahya {
     border: none;
-    border-top: 3px solid #0080ff;
+    border-top: 3px solid #ffffff;
     max-width: 250px;
     margin: 25px auto;
     color: black;
