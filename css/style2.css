@@ -134,11 +134,14 @@ float:right;
     margin: auto;
 }
 
-.figure :hover {
-    opacity: 0.8;
+.figure {
+    transition: .4s;
 }
 
-.carousel-item active {
-width:50% ;
-right: 50%;    
+.figure:hover {
+    opacity: 0.8;
+    transform: scale(1.5);
+}
+.carousel-item img{
+    width: 100%;
 }
