@@ -9,7 +9,7 @@ if(!($_POST['mail']==""))
     if($_POST['mail']=="g221210592@sakarya.edu.tr" )
     {
        
-        if(!($_POST['sifre']=="221210592"))
+        if(!($_POST['sifre']=="221215092"))
         {
             echo "sifre  yanlış";
             echo "<p> <a href='index.html'>&lt;GERİ DÖN&gt;</a></p> ";

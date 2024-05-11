@@ -4,15 +4,17 @@
 
 body {
     padding-top: 50px;
+ 
+ 
 }
 
 .hakkimda {
     background-color: #f2f2f2;
 }
 
-.hakkimda .container .BELAL {
+.hakkimda.container.BELAL {
     border: none;
-    border-top: 3px solid #343a40;
+    border-top: 3px solid #310d7a;
     max-width: 250px;
     margin: 25px auto;
     color: black;
