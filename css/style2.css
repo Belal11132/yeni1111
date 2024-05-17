@@ -1,54 +1,53 @@
+.iletisim-sayfasi {
+    background-image: url(../imegs/backgraound3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .iletisim {
-    background-color: #ffffff;
     padding:none;
     margin-top:40px;
     font-weight:100px;
     width:100%;
+    
 }
 
 .edu {
     margin-left: 45%;
     margin-right: 45%;
-    background-color: white;
     width: 10%;
 }
 
 .city {
     margin-left: 45%;
     margin-right: 40%;
-    background-color: white;
 }
 
 .gender {
     margin-left: 45%;
     margin-right: 40%;
-    background-color: white;
 }
 
 .name {
     width: auto;
     margin-left: 45%;
     margin-right: 40%;
-    background-color: white;
 }
 
 .lang {
     margin-left: 45%;
     margin-right: 40%;
-    background-color: white;
 }
 
 .mesaj {
     margin-left: 45%;
     margin-right: 40%;
-    background-color: white;
-}
+    }
 
 .buton {
     margin-left:45%;
     margin-right:40%;
     max-width:180px;
-    background-color: rgb(255, 255, 255);
     padding-left:1%;
 }
 
@@ -146,6 +145,14 @@ float:right;
     width: 100%;
 }
 
-body{
-    background: url("imegs/backgraound3.jpg");
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imegs/backgraound3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
 }
